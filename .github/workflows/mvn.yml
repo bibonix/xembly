@@ -4,6 +4,7 @@
 # yamllint disable rule:line-length
 name: mvn
 'on':
+  workflow_dispatch:
   push:
     branches:
       - master
